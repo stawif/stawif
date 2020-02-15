@@ -3,7 +3,7 @@
 #### (1) Installing libraries/framework
 
 ```
-1 node | version:13.3.0 | as per your OS 
+1 node | version:13.3.0 (you can try latest) | as per your OS 
 2 npm | version:6.13.7 | as per your OS
 3 python | version 3.8.0 | as per your OS
 4 django | version:3.0 | via pip
