@@ -12,9 +12,9 @@ class App extends Component{
   }
 
   componentDidMount(){
-    fetch('http://127.0.0.1:8000/list/').
-    then(res => res.json()).
-    then(json => {
+    fetch('http://127.0.0.1:8000/list/')
+    .then(res => res.json())
+    .then(json => {
       this.setState({teamList: json});
       console.log("These are names : "+this.state.teamList[0].name);
     });
